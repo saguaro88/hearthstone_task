@@ -9,7 +9,7 @@ void main() async {
     appSecretAndroid:
         '42cc4a5d-35e5-4ed5-b605-a0424bd90f64', // Replace when you've created Android app in AppCenter.ms
     appSecretIOS:
-        'AppCenter GUID', // Replace when you've created iOS app in AppCenter.ms
+        '42cc4a5d-35e5-4ed5-b605-a0424bd90f64', // Replace when you've created iOS app in AppCenter.ms
     enableDistribute: true,
   );
   await AppCenter.configureDistributeDebugAsync(enabled: false);
